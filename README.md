@@ -23,7 +23,7 @@
     ├── ✔️ Configure firewall rules
     └── ✔️ Implement logrotate for application logs
 ```
-![alt text](evidences/image-2.png)
+
 ### 🔥 Setup Users & Groups for Dev Team
 
 * Create a group  
@@ -36,7 +36,7 @@ sudo groupadd devops
 sudo useradd -m -s /bin/bash kamal
 ```
 
-![alt text](image.png)
+
 
 * set password
 ```
@@ -71,7 +71,8 @@ sudo chmod -R 770 /opt/project
 ```
 ls -ld /opt/project
 ```
-![alt text](image-2.png)
+
+![alt text](evidences/image-2.png)
 
 ### :fire: Install Required Packages (Git, Nginx, Java)
 
@@ -87,7 +88,7 @@ sudo apt install git -y
 # OR
 sudo yum install git -y
 ```
-![alt text](image-3.png)
+![alt text](evidences/image-3.png)
 
 * Install Nginx 
 ```
@@ -95,28 +96,29 @@ sudo yum install git -y
 # OR
 sudo amazon-linux-extras install nginx1
 ```
-![alt text](image-4.png)
+![alt text](evidences/image-4.png)
 
 * Start & enable Nginx 
 ```
 sudo systemctl start nginx1
 sudo systemctl enable nginx1
 ```
-![alt text](image-5.png)
+![alt text](evidences/image-5.png)
 
 * Install Java 
 ```
 sudo apt install java-17-amazon-corretto -y  # Ubuntu (if repo configured)
 sudo yum install java-17-amazon-corretto -y  # Amazon Linux
 ```
-![alt text](image-6.png)
+![alt text](evidences/image-6.png)
 * Verify versions 
 ```
 git --version
 nginx -v
 java -version
 ```
-![alt text](images/image-9.png)
+![alt text](evidences/image-7.png)
+![alt text](evidences/image-8.png)
 
 ### :fire: Check System Information
 
