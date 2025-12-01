@@ -316,6 +316,7 @@ htop   # (install: sudo apt install htop -y)
 ```
 lscpu
 ```
+![alt text](evidences/image-10.png)
 ➤ Check disk usage
 ```
 df -h
@@ -338,11 +339,12 @@ ps aux --sort=-%cpu | head
 ```
 ss -tulpn
 ```
-
+![alt text](evidences/18.png)
 ➤ Check system load average
 ```
 uptime
 ```
+![alt text](evidences/19.png)
 
 ### Troubleshoot Linux Services
 
@@ -351,7 +353,7 @@ uptime
 ```
 sudo systemctl status nginx
 ```
-
+![alt text](evidences/16.png)
 ➤ Start service
 ```
 sudo systemctl start nginx
@@ -364,7 +366,7 @@ sudo systemctl stop nginx
 ```
 sudo systemctl restart nginx
 ```
-
+![alt text](evidences/17.png)
 ### Quick Troubleshooting Flow
 
 Check service status
@@ -444,6 +446,7 @@ RestartSec=5
 [Install]
 WantedBy=multi-user.target
 ```
+![alt text](evidences/20.png)
 --------------------------------------------
 
  3. Reload systemd to Register Service
