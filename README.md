@@ -611,9 +611,11 @@ sudo systemctl restart sshd
 ➤ Check open ports:
 ```
 sudo ss -tulpn | grep ssh
-```
+
+![alt text](evidences/27.png)
 
 ➤ Check logs:
+
 ```
 sudo tail -f /var/log/auth.log
 
