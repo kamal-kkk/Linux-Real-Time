@@ -523,15 +523,17 @@ sudo nano /etc/ssh/sshd_config
 Find this line:
 ```
 #Port 22
-```
 
 Change to something like:
-```
+
 Port 2222
-```
+
+
 ![alt text](evidences/26.png)
 
+
 ➤ Restart SSH
+
 ```
 sudo systemctl restart sshd
 ```
