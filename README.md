@@ -156,7 +156,7 @@ crontab -e
 ```
 0 2 * * * /opt/backup.sh >> /var/log/backup.log 2>&1
 ```
-
+![alt text](<evidences/image 11.png>)
 ```
 Cron schedule explanation
 | Field | Meaning      |
