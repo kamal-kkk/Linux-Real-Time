@@ -1,7 +1,7 @@
 # :penguin: Linux Server Automation
 
 ## :rocket:Foundational skills 
-![alt text](evidences/image-1.png)
+
 ```
 │
 ├── Level-1-Basic-Foundational/
@@ -35,7 +35,7 @@ sudo groupadd devops
 ```
 sudo useradd -m -s /bin/bash kamal
 ```
-
+![alt text](evidences/image.png)
 
 
 * set password
