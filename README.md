@@ -529,7 +529,8 @@ Change to something like:
 ```
 Port 2222
 ```
-evidences/26.png
+![alt text](evidences/26.png)
+
 ➤ Restart SSH
 ```
 sudo systemctl restart sshd
