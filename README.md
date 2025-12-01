@@ -208,6 +208,7 @@ find $LOG_DIR -type f -mtime +$DAYS -exec rm -f {} \;
 
 echo "Cleanup complete!"
 ```
+![alt text](<evidences/image 12.png>)
 Make executable
 ```
 sudo chmod +x /opt/log_cleanup.sh
@@ -217,6 +218,7 @@ Optional: Schedule with cron (daily 1 AM)
 0 1 * * * /opt/log_cleanup.sh >> /var/log/cleanup.log 2>&1
 ```
 
+![alt text](evidences/13.png)
 ### :fire: Service Restart Script
 
 Restart and check a service (example: nginx).
@@ -245,7 +247,7 @@ else
     exit 1
 fi
 ```
-
+![alt text](evidences/13.png)
 Make executable
 ```
 sudo chmod +x /opt/restart_service.sh
@@ -288,7 +290,7 @@ systemctl is-active $SERVICE
 
 echo "==============================="
 ```
-
+![alt text](evidences/15.png)
 Make executable
 ```
 sudo chmod +x /opt/health_check.sh
