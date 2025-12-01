@@ -1,7 +1,7 @@
 # :penguin: Linux Server Automation
 
 ## :rocket:Foundational skills 
-
+![alt text](evidences/image-1.png)
 ```
 │
 ├── Level-1-Basic-Foundational/
