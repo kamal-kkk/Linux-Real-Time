@@ -134,6 +134,7 @@ lscpu
 ```
 df -h
 ```
+![alt text](evidences/image-10.png)
 * Running processes
 ```
 top
@@ -279,6 +280,8 @@ free -m
 
 echo -e "\n--- Disk Usage ---"
 df -h
+
+C:\Users\guntu\OneDrive\Desktop\linux-portfolio\evidences\image-10.png
 
 echo -e "\n--- Service Status: $SERVICE ---"
 systemctl is-active $SERVICE
