@@ -51,7 +51,7 @@ sudo usermod -a g   devops kamal
 ```
 id kamal
 ```
-![alt text](image-1.png)
+
 
 ### :fire: Manage Permissions for Project Directories
 
@@ -529,6 +529,7 @@ Change to something like:
 ```
 Port 2222
 ```
+evidences/26.png
 ➤ Restart SSH
 ```
 sudo systemctl restart sshd
