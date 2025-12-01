@@ -23,7 +23,7 @@
     ├── ✔️ Configure firewall rules
     └── ✔️ Implement logrotate for application logs
 ```
-
+![alt text](evidences/image-2.png)
 ### 🔥 Setup Users & Groups for Dev Team
 
 * Create a group  
