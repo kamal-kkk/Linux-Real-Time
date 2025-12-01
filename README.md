@@ -463,6 +463,7 @@ sudo systemctl start myapp
  ```
 sudo systemctl enable myapp
 ```
+![alt text](evidences/21.png)
 --------------------------------------------
  6. Check Service Status
  ```
@@ -473,12 +474,16 @@ sudo systemctl status myapp
  ```
 sudo journalctl -u myapp -f
 ```
+![alt text](evidences/21.png)
 --------------------------------------------
  8. Stop / Restart the Service
  ```
+
+
 ➤ Stop
 sudo systemctl stop myapp
 ```
+![alt text](evidences/23.png)
 ➤ Restart
 ```
 sudo systemctl restart myapp
@@ -493,7 +498,9 @@ sudo systemd-analyze verify /etc/systemd/system/myapp.service
 ➤ Re-check logs
 ```
 sudo journalctl -u myapp --no-pager | tail -20
-```
+
+evidences/24.png
+evidences/24.png
 ➤ Ensure permissions are correct
 ```
 sudo chmod +x /opt/myapp/start.sh
